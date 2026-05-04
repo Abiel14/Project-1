@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CareerQuest Admin</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>📊 CareerQuest Admin</h1>
+    <nav><a href="index.html">Back to App</a></nav>
+  </header>
+  <main class="container">
+    <section class="card">
+      <h3>Platform Stats</h3>
+      <p>Total users (simulated): <strong id="totalUsers"></strong></p>
+      <p>Most popular career: <strong id="popularCareer"></strong></p>
+      <p>Total feedback entries: <strong id="feedbackCount"></strong></p>
+    </section>
+    <section class="card">
+      <h3>Engagement Chart</h3>
+      <div id="chart"></div>
+    </section>
+    <section class="card">
+      <h3>User Feedback</h3>
+      <ul id="feedbackList"></ul>
+    </section>
+  </main>
+  <script src="admin.js"></script>
+</body>
+</html>
